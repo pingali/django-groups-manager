@@ -2,7 +2,7 @@ from django import forms
 
 from django_helper_forms.forms import DictionaryFieldsForm
 
-import models
+from . import models
 
 
 class MemberForm(forms.ModelForm):
